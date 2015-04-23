@@ -12,6 +12,10 @@ body{
   	background: -o-linear-gradient(#f6f1b2, #4599b2); /* For Opera 11.1 to 12.0 */
   	background: -moz-linear-gradient(#f6f1b2, #4599b2); /* For Firefox 3.6 to 15 */
   	background: linear-gradient(#f6f1b2, #4599b2); /* Standard syntax */
+  	border-color: #d3d3d3;
+	border-style: solid;
+	border-width: 1px;
+
  }
 #cabecalho h1{
 	font-family: 'Ravie';
