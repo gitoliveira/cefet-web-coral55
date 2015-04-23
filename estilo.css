@@ -1,1 +1,118 @@
 @import "fonts/stylesheet.css";
+
+body{
+ 	color: #333;
+ 	margin: 0;
+}
+#recipiente{
+	margin: 0 auto; 
+	width: 800px;
+	padding-top: 17px;
+	background: -webkit-linear-gradient(#f6f1b2, #4599b2); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#f6f1b2, #4599b2); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#f6f1b2, #4599b2); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#f6f1b2, #4599b2); /* Standard syntax */
+ }
+#cabecalho h1{
+	font-family: 'Ravie';
+	font-size: 36px;
+	color: #e90c0c;
+	margin-top: 0;
+	margin-bottom: 10px;
+	text-align: right;
+	margin-right: 110px;
+}
+
+#cabecalho h2{
+	font-family: 'Trebuchet MS';
+	font-size: 24px;
+	text-align: right;
+	margin-right: 110px;
+	margin-top: 0;
+	font-weight: lighter;
+}
+strong{
+	color: #d027aa;
+}
+
+/*#conteudo{
+	position: static;
+}
+*/
+#cardapio{
+	font-family:'Verdana';
+	font-size: 14px;
+	width: 646px;
+	border-color: #aac0ae;
+	border-style: solid;
+	border-width: 1px;
+	padding: 20px;
+	padding-top: 10px;
+	padding-bottom:60px;
+	line-height: 25px;
+	/*position: absolute;*/
+	float: right;
+
+}
+
+#cardapio h2{
+	font-size: 18px;
+	font-style: bold;
+}
+
+.precos{
+	float:right;
+}
+
+#lateral{
+	position:absolute;
+	left:0px;
+	top:0px;
+	padding-top: 7px;
+	
+	width: 154px;
+
+}
+
+#lateral h2{
+ transform: rotateZ(270deg);
+ position: absolute;
+ width: 154px;
+ font-family: 'Verdana';
+ font-size: 48px;
+ color: #333;
+}
+
+#siri{
+	position: relative;
+	height: 10px;
+	top: 17px;
+	margin: auto;
+  
+}
+
+#ticket{
+	position:fixed;
+	top:50%;
+	left:0%;
+	display: none;
+	width: 40px;
+}
+
+#ticket:hover {
+    display: inline-block; 
+}
+
+#rodape{
+
+	clear:right;
+	padding-top: 46px;
+	padding-bottom: 25px;
+	padding-right: 15px;
+
+}
+
+#rodape img{
+		right: 15px;
+
+}
