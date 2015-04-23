@@ -6,7 +6,7 @@ body{
 }
 #recipiente{
 	margin: 0 auto; 
-	width: 800px;
+	width: 810px;
 	padding-top: 17px;
 	background: -webkit-linear-gradient(#f6f1b2, #4599b2); /* For Safari 5.1 to 6.0 */
   	background: -o-linear-gradient(#f6f1b2, #4599b2); /* For Opera 11.1 to 12.0 */
@@ -18,7 +18,7 @@ body{
 	font-size: 36px;
 	color: #e90c0c;
 	margin-top: 0;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	text-align: right;
 	margin-right: 110px;
 }
@@ -42,7 +42,7 @@ strong{
 #cardapio{
 	font-family:'Verdana';
 	font-size: 14px;
-	width: 646px;
+	width: 625px;
 	border-color: #aac0ae;
 	border-style: solid;
 	border-width: 1px;
@@ -68,12 +68,14 @@ strong{
 	position:absolute;
 	left:0px;
 	top:0px;
-	padding-top: 7px;
+	/*padding-top: 7px;*/
 	
 	width: 154px;
 
 }
-
+#conteudo{
+	position: relative;
+}
 #lateral h2{
  transform: rotateZ(270deg);
  position: absolute;
@@ -81,13 +83,14 @@ strong{
  font-family: 'Verdana';
  font-size: 48px;
  color: #333;
+ left:0;
+ text-align: center;
 }
 
 #siri{
 	position: relative;
-	height: 10px;
-	top: 17px;
-	margin: auto;
+	top: -106px;
+	left: -10px;
   
 }
 
@@ -95,17 +98,25 @@ strong{
 	position:fixed;
 	top:50%;
 	left:0%;
-	display: none;
 	width: 40px;
+	opacity: 0;
+	-webkit-transition: all 300ms ease;
+ 	-moz-transition: all 300ms ease;
+ 	-ms-transition: all 300ms ease;
+ 	-o-transition: all 300ms ease;
+ 	transition: all 300ms ease;
+
 }
 
 #ticket:hover {
     display: inline-block; 
+    opacity: 1;
 }
 
 #rodape{
 
 	clear:right;
+	text-align: right;
 	padding-top: 46px;
 	padding-bottom: 25px;
 	padding-right: 15px;
@@ -115,4 +126,16 @@ strong{
 #rodape img{
 		right: 15px;
 
+}
+
+#bolhas{
+	position: relative;
+	bottom: -164px;
+	left:20px;
+}
+
+#peixe{
+	position: relative;
+	bottom: -208px;
+	left:-44px;
 }
